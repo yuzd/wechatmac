@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yuzd/workspace/WeChatPlugin-MacOS-master/Other/Products/Debug/WeChatPlugin.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "WeChatPlugin-Swift.h",
+          'external-contents': "/Users/yuzd/workspace/WeChatPlugin-MacOS-master/Other/Products/Debug/WeChatPlugin.framework/Versions/A/Headers/WeChatPlugin-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "WeChatPlugin.h",
+          'external-contents': "/Users/yuzd/workspace/WeChatPlugin-MacOS-master/WeChatPlugin/WeChatPlugin.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuzd/workspace/WeChatPlugin-MacOS-master/Other/Products/Debug/WeChatPlugin.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yuzd/workspace/WeChatPlugin-MacOS-master/Other/Products/WeChatPlugin.build/Debug/WeChatPlugin.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
