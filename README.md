@@ -1,11 +1,12 @@
-该项目 fork https://github.com/yuzd/WeChatPlugin-MacOS
-进行了如下二次开发：
+# 该项目 fork https://github.com/TKkk-iOSer/WeChatPlugin-MacOS
 
-1.机器人功能
+# 进行了如下二次开发：
+
+## 机器人功能
 
 可以配置@私聊自己后 将消息发送至服务器(http post方式)获取到结果以微信消息方式发送
 
-2. 获取全部的群和所有的通讯录信息
+## 获取全部的群和所有的通讯录信息
 
 群列表信息包括如下字段：
 
@@ -18,16 +19,17 @@
 
 用户微信号，用户微信昵称 用户微信头像
 
-存储在
+存储在 
+
 /Users/yuzd/Library/Containers/com.tencent.xinWeChat/Data/Documents/TKWeChatPlugin/${你的微信号}/user.plist
 
-3.服务器发送指定微信消息给指定人or群 功能
+## 服务器发送指定微信消息给指定人or群 功能
 
 配置服务器url后，每隔1秒向该url 获取消息和发送人，然后发送出去
 
 其中指定的人或者群的id是根据上面的功能2获得
 
-#免责声明
+## 免责声明
 
 使用插件有风险，使用需谨慎。
 
