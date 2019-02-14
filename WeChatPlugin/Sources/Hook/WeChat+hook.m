@@ -671,9 +671,11 @@
     if(!url || [url length] == 0 ){
         return;
     }
+    NSString *currentUserName = [objc_getClass("CUtility") GetCurrentUserName];
+    NSString *urlWithId = [NSString stringWithFormat:@"%@?id=%@", url, currentUserName];
     //发送post请求
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:url]];
+    [request setURL:[NSURL URLWithString:urlWithId]];
     [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request setValue:@"application/json" forHTTPHeaderField:@"Content-type"];
     
