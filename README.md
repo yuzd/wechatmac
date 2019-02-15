@@ -29,6 +29,10 @@
 
 其中指定的人或者群的id是根据上面的功能2获得
 
+## 有什么用
+
+参考 https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/issues/446
+
 ## 免责声明
 
 使用插件有风险，使用需谨慎。
